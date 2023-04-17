@@ -389,7 +389,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.8490566, g: 0.64164025, b: 0.23629406, a: 1}
+  m_Color: {r: 0.1792453, g: 0.1372882, b: 0.054957286, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -429,7 +429,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -521,8 +521,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 320b019e05c0cfb42a8678f83fd020af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalSpeed: 5
-  verticalSpeed: 5
+  horizontalSpeed: 3
+  verticalSpeed: 3
 --- !u!114 &751521944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -535,7 +535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abc2d496c032f014ba8b3873de307c9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MovementSpeed: 5
+  MovementSpeed: 3
   Gravity: 0.5
 --- !u!1 &963194225
 GameObject:
@@ -637,7 +637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _TextureWarpingFactor: 0.02
-  _TextureWarpingMode: 0
+  _TextureWarpingMode: 1
   _VertexGridResolution: 30
   _UseRetroVertexLighting: 0
   _RetroLightingNormalFactor: 0
