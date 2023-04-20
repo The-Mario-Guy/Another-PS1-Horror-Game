@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6a841e94037740b4993f9e2c4af31f89
+guid: d8b7bf1724d60524fa04ee72f0398ab7
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: tree10
-    second: {fileID: 2100000, guid: 487dbdd5c9a162c4d96ad3965fac2996, type: 2}
+      name: landscape00-1480591405884-283-69-6
+    second: {fileID: 2100000, guid: 19d17a0f2bcb02a47849b96c7f0d7796, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

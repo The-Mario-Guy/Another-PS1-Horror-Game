@@ -15,6 +15,7 @@ public class MouseHandler : MonoBehaviour
     void Start()
     {
         cam = Camera.main;
+        Cursor.visible = false; 
     }
  
     void Update()
