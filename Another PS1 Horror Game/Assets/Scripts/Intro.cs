@@ -1,14 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class Intro : MonoBehaviour
 {
     // Start is called before the first frame update
     private MeshRenderer _Intro;
+    public VideoPlayer Vid;
     void Start()
     {
         _Intro = GetComponent<MeshRenderer>();
+        Vid = GetComponent<VideoPlayer>();
         StartCoroutine(Timer());
     }
 
@@ -20,6 +24,7 @@ public class Intro : MonoBehaviour
     IEnumerator Timer()
     {
         yield return new WaitForSeconds(17);
-        _Intro.enabled = false;
+        //_Intro.enabled = false;
+        Vid.enabled = false;
     }
 }
