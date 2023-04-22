@@ -3,7 +3,12 @@ guid: 954b6f77c5e8e104f894fc0207cfc43a
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boombox
+    second: {fileID: 2100000, guid: c003cc538b57b064cb6d45e6038c817b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
