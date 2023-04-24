@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
+using UnityEngine.SceneManagement;
 
 public class Intro : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class Intro : MonoBehaviour
     IEnumerator Timer()
     {
         yield return new WaitForSeconds(17);
+        SceneManager.LoadScene(1);
         //_Intro.enabled = false;
         Vid.enabled = false;
     }
