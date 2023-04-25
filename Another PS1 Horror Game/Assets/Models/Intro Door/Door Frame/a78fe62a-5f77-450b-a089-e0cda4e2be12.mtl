@@ -1,0 +1,20 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Katherine_Sleeve
+Ka 0.000000 0.000000 0.000000
+Kd 0.200000 0.149020 0.098039
+Ks 0.330000 0.330000 0.330000
+map_Kd a78fe62a-5f77-450b-a089-e0cda4e2be12/Katherine_Sleeve.png
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Katherine_Skin2
+Ka 0.000000 0.000000 0.000000
+Kd 0.337255 0.250980 0.200000
+Ks 0.330000 0.330000 0.330000
+

@@ -1,0 +1,20 @@
+# Alias OBJ Model File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+# File units = inches
+
+mtllib 9652f361-8944-4c44-80e1-cfe5ac9d4abe.mtl
+
+g Mesh1 Model
+
+usemtl Katherine_Glasses1
+v 18.4831 19.2019 -0
+vt 0.168028 0.103445
+vn 0 0 1
+v 83.5361 19.2019 -0
+vt 0.759419 0.103445
+v 83.5361 142.214 -0
+vt 0.759419 0.766137
+v 18.4831 142.214 -0
+vt 0.168028 0.766137
+f 1/1/1 2/2/1 3/3/1 4/4/1 
+
