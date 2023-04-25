@@ -3,7 +3,27 @@ guid: 361045e89aff0454eaa2af1ac67516a4
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CounterTop
+    second: {fileID: 2100000, guid: 4f277e5843016ae488d8402f83c98785, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cupboard
+    second: {fileID: 2100000, guid: a685cd8f19c73a648967f752ea7d0d61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CupboardSide
+    second: {fileID: 2100000, guid: 2bf34e069a3eee845b9c37c6bf367df5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sink
+    second: {fileID: 2100000, guid: 0a2c46701e3f5e2438aaf7ba60fc096a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
