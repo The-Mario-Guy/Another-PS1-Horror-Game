@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     CharacterController characterController;
@@ -10,11 +10,14 @@ public class PlayerController : MonoBehaviour
     private float velocity = 0;
 
     private Camera cam;
+    public bool isFading;
+    private Animator _Fade;
  
     private void Start()
     {
         cam = Camera.main;
         characterController = GetComponent<CharacterController>();
+        _Fade = GetComponent<Animator>();
     }
  
     void Update()
@@ -41,6 +44,21 @@ public class PlayerController : MonoBehaviour
         else
         {
             MovementSpeed = 2f;
+        }
+    }
+    private void OnTriggerEnter(Collider collision) 
+    {
+        if (collision.gameObject.tag == "OutsideTrigger")
+        {
+            isFading = true;
+            //_Fade.SetBool("IsFading", isFading);
+             SceneManager.LoadScene(2);   
+        }
+        if (collision.gameObject.tag == "InsideTrigger")
+        {
+            isFading = true;
+            //_Fade.SetBool("IsFading", isFading);
+             SceneManager.LoadScene(4);   
         }
     }
 

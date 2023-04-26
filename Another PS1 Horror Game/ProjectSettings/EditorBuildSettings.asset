@@ -12,9 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/YourHouseInsidew.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Door Wood.unity
+    path: Assets/Scenes/Door Transitions/Door Wood.unity
     guid: c7c74d1170936b545a83119ceaacf8c8
   - enabled: 1
     path: Assets/Scenes/Outside.unity
     guid: 9b76280c0007dea42821ac09b35167ff
+  - enabled: 1
+    path: Assets/Scenes/Door Transitions/Back Into House.unity
+    guid: 75fe1c284361c4f498f4f4d60b52f1ad
   m_configObjects: {}
