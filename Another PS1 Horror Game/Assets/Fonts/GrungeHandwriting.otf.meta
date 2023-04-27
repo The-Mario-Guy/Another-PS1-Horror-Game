@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 4b9932759eb674f4f979bcb27e4372b8
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Grunge Handwriting
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3a83b93879ae17b4aa8aa72f0a2b0133, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
