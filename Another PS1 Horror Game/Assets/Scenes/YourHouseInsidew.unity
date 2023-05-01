@@ -4467,12 +4467,16 @@ PrefabInstance:
       value: 18.988241
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7e06bcc289bab7b4886d9834a0e1b2f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 15.650978
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 7e06bcc289bab7b4886d9834a0e1b2f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 224.211
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7e06bcc289bab7b4886d9834a0e1b2f9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.257
+      value: 0.221
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7e06bcc289bab7b4886d9834a0e1b2f9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6854,7 +6858,7 @@ MonoBehaviour:
   _TextureWarpingFactor: 0.000001
   _TextureWarpingMode: 1
   _VertexGridResolution: 60
-  _UseRetroVertexLighting: 0
+  _UseRetroVertexLighting: 1
   _RetroLightingNormalFactor: 0
   _RetroLightFalloffStart: 0
   _FlatShadingMode: 0
@@ -6873,7 +6877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shader: {fileID: 4800000, guid: 739c6569a1eb0c448804a9e0e49f34b1, type: 3}
-  FilterQuality: 0
+  FilterQuality: 1
   VideoMode: 2
   DisplaySizeX: 256
   DisplaySizeY: 224
@@ -6889,11 +6893,11 @@ MonoBehaviour:
   PixelMaskBrightness: 1.559
   IQOffset: {x: 0, y: 0}
   IQScale: {x: 1, y: 1}
-  RFNoise: 0.25
+  RFNoise: 0.1
   LumaSharpen: 4
-  QuantizeRGB: 0
+  QuantizeRGB: 1
   RBits: 8
-  GBits: 8
+  GBits: 7
   BBits: 8
   EnableBurstCountAnimation: 1
   AntiFlicker: 0
