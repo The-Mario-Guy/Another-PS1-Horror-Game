@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: a7cee727f4431d448a9abc629f56a333
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - a Always Smile
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1211a0418cc0f0f4e8ca7122f17529f8, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
