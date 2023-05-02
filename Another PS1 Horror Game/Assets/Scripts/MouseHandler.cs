@@ -16,6 +16,7 @@ public class MouseHandler : MonoBehaviour
     {
         cam = Camera.main;
         Cursor.visible = false; 
+        Cursor.lockState = CursorLockMode.Locked;
     }
  
     void Update()

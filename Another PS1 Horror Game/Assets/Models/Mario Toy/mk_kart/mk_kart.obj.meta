@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 565b2eb29f537404598fb4b077d3421b
+guid: a363fea1d3c6bec47bc734e62b67b2eb
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,13 +7,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Microwave Back
-    second: {fileID: 2100000, guid: 9e2361a351552be488fbea2ac542be0b, type: 2}
+      name: E_face
+    second: {fileID: 2100000, guid: 1b0f2f326748d23429057fd61eb3eda0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Microwave Front
-    second: {fileID: 2100000, guid: 5bc0df58c30bedf46a8421b33a16c090, type: 2}
+      name: E_main
+    second: {fileID: 2100000, guid: 1dae0388ad03c074d9fcde14411f54cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kart_body
+    second: {fileID: 2100000, guid: ac625e3d0ff09b14eb1268c47f69d82c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kart_e
+    second: {fileID: 2100000, guid: 37e69deea7f06784889a8611e9715e22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kart_tire
+    second: {fileID: 2100000, guid: 45bd078db19df994b8935fff71a4e898, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
