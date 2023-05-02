@@ -19,6 +19,6 @@ public class DoorTimer : MonoBehaviour
      IEnumerator Timer()
     {
         yield return new WaitForSeconds(6.5f);
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(5);
     }
 }

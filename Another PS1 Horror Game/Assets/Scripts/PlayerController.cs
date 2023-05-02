@@ -52,13 +52,13 @@ public class PlayerController : MonoBehaviour
         {
             isFading = true;
             //_Fade.SetBool("IsFading", isFading);
-             SceneManager.LoadScene(2);   
+             SceneManager.LoadScene(4);   
         }
         if (collision.gameObject.tag == "InsideTrigger")
         {
             isFading = true;
             //_Fade.SetBool("IsFading", isFading);
-             SceneManager.LoadScene(4);   
+             SceneManager.LoadScene(6);   
         }
     }
 

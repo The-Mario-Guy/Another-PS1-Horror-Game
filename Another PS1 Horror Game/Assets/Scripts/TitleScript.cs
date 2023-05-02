@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class BackIntoHouse : MonoBehaviour
+public class TitleScript : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-    StartCoroutine(Timer());
+        
     }
 
     // Update is called once per frame
@@ -16,9 +16,12 @@ public class BackIntoHouse : MonoBehaviour
     {
         
     }
-     IEnumerator Timer()
+    public void loadMain()
     {
-        yield return new WaitForSeconds(5.5f);
         SceneManager.LoadScene(3);
+    }
+    public void Quit()
+    {
+    Application.Quit();
     }
 }
