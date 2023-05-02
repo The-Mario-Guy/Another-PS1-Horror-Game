@@ -24,7 +24,7 @@ public class Intro : MonoBehaviour
     }
     IEnumerator Timer()
     {
-        yield return new WaitForSeconds(17);
+        yield return new WaitForSeconds(20);
         SceneManager.LoadScene(1);
         //_Intro.enabled = false;
         Vid.enabled = false;
