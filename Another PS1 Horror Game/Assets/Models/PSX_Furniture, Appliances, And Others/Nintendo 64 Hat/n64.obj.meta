@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f884eb4cdd83af94aa45d7f57ffd54eb
+guid: 73247de413456dd4f8173e7ac566aeb5
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: a6acdb6afef71fd46b956d0aecbb6d6f, type: 2}
+      name: hat_nintendo64_color.png
+    second: {fileID: 2100000, guid: 086200ebc218c4f4aa96f282da87ddcd, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
