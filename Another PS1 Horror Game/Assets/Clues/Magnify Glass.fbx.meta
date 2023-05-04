@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6d7d440868db589479675cdb8d72eefe
+guid: 192823da58f687b4b85beb0590a3b152
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,8 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Paper
-    second: {fileID: 2100000, guid: 354f00850bc6b964f90ede09100347d7, type: 2}
+      name: Katherine_Badge
+    second: {fileID: 2100000, guid: 8d56c24a961e41746a30c3a04a9007b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Katherine_Sleeve
+    second: {fileID: 2100000, guid: e83f88693eee9a4458e9823213dce233, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

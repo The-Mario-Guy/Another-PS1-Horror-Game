@@ -19,6 +19,6 @@ public class BackIntoHouse : MonoBehaviour
      IEnumerator Timer()
     {
         yield return new WaitForSeconds(5.5f);
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(3);
     }
 }
