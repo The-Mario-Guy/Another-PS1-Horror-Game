@@ -6,6 +6,7 @@ TagManager:
   tags:
   - OutsideTrigger
   - InsideTrigger
+  - EM
   layers:
   - Default
   - TransparentFX
