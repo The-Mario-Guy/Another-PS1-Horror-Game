@@ -1,0 +1,4 @@
+This will be one collective rip for every virtual console NES banner, I obviously can't get all these myself so if you can feel free to revise this with more game's banner textures since each banner's models are the exact same, Make sure to use EveryFileExplorer https://gbatemp.net/threads/release-every-file-explorer.373615/ to export the textures Ohana3ds Rebirth doesn't rip the textures properly. just grab COMMON1 & COMMON2
+
+
+To get the banner delete the first 88 bytes in the file https://i.imgur.com/sYNm9fa.png there might be more after the first cgfx for alternate languages.

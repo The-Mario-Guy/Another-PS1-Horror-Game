@@ -66,6 +66,10 @@ public class PlayerController : MonoBehaviour
             //_Fade.SetBool("IsFading", isFading);
              SceneManager.LoadScene(4);   
         }
+        if (collision.gameObject.tag == "Clue1")
+        {
+             SceneManager.LoadScene(9);   
+        }
     }
 
 }
