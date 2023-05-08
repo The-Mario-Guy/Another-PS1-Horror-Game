@@ -70,6 +70,10 @@ public class PlayerController : MonoBehaviour
         {
              SceneManager.LoadScene(9);   
         }
+        if (collision.gameObject.tag == "Clue2")
+        {
+             SceneManager.LoadScene(11);   
+        }
     }
 
 }

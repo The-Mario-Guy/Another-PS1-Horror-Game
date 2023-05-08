@@ -8,6 +8,7 @@ TagManager:
   - InsideTrigger
   - EM
   - Clue1
+  - Clue2
   layers:
   - Default
   - TransparentFX
