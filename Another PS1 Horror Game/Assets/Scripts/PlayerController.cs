@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     CharacterController characterController;
-    public float MovementSpeed =2;
+    public float MovementSpeed =4;
     public float Gravity = 9.8f;
     private float velocity = 0;
 
@@ -39,11 +39,11 @@ public class PlayerController : MonoBehaviour
         }
         if(Input.GetKey(KeyCode.LeftShift))
         {
-            MovementSpeed = 3f;
+            MovementSpeed = 5.5f;
         }
         else
         {
-            MovementSpeed = 2f;
+            MovementSpeed = 4f;
         }
     }
     private void OnTriggerEnter(Collider collision) 
