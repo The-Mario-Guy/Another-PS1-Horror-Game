@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cutscenes/Clue2.unity
     guid: d73f021873c011744a116ded25dccf53
+  - enabled: 1
+    path: Assets/Scenes/After Clue 2.unity
+    guid: bcd04a6be5c24f342961f3d7bb6ddb8f
   m_configObjects: {}
