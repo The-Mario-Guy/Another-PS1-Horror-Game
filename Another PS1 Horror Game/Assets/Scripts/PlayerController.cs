@@ -74,6 +74,10 @@ public class PlayerController : MonoBehaviour
         {
              SceneManager.LoadScene(11);   
         }
+        if (collision.gameObject.tag == "Clue3")
+        {
+             SceneManager.LoadScene(13);   
+        }
     }
 
 }
