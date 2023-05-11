@@ -10,6 +10,7 @@ TagManager:
   - Clue1
   - Clue2
   - Clue 3
+  - Clue3
   layers:
   - Default
   - TransparentFX

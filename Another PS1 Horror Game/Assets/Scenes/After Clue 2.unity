@@ -9675,7 +9675,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 192823da58f687b4b85beb0590a3b152, type: 3}
       propertyPath: m_TagString
-      value: Clue 3
+      value: Clue3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 192823da58f687b4b85beb0590a3b152, type: 3}
