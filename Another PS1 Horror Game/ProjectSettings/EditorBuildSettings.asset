@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pac Man.unity
     guid: 35f846dfb39523240a575a645834f0ec
+  - enabled: 1
+    path: Assets/Scenes/Mario Easter Egg 1.unity
+    guid: 82fcbb8b9bb3d494f9de55a552349700
   m_configObjects: {}
