@@ -18,6 +18,6 @@ public class Clue2 : MonoBehaviour
     IEnumerator Timer()
     {
         yield return new WaitForSeconds(12.5f);
-        SceneManager.LoadScene(12);
+        SceneManager.LoadScene(11);
     }
 }

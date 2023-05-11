@@ -52,13 +52,13 @@ public class PlayerController : MonoBehaviour
         {
             isFading = true;
             //_Fade.SetBool("IsFading", isFading);
-             SceneManager.LoadScene(6);   
+             SceneManager.LoadScene(5);   
         }
         if (collision.gameObject.tag == "InsideTrigger")
         {
             isFading = true;
             //_Fade.SetBool("IsFading", isFading);
-             SceneManager.LoadScene(8);   
+             SceneManager.LoadScene(7);   
         }
         if (collision.gameObject.tag == "EM")
         {
@@ -68,16 +68,21 @@ public class PlayerController : MonoBehaviour
         }
         if (collision.gameObject.tag == "Clue1")
         {
-             SceneManager.LoadScene(9);   
+             SceneManager.LoadScene(8);   
         }
         if (collision.gameObject.tag == "Clue2")
         {
-             SceneManager.LoadScene(11);   
+             SceneManager.LoadScene(10);   
         }
         if (collision.gameObject.tag == "Clue3")
         {
+             SceneManager.LoadScene(12);   
+        }
+        if (collision.gameObject.tag == "PacisBac")
+        {
              SceneManager.LoadScene(13);   
         }
+        
     }
 
 }

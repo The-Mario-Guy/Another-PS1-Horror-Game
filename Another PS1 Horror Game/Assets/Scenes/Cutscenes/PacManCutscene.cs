@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class IntroTimerSMB : MonoBehaviour
+public class PacManCutscene : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -19,6 +19,6 @@ public class IntroTimerSMB : MonoBehaviour
     IEnumerator Timer()
     {
         yield return new WaitForSeconds(7.5f);
-        SceneManager.LoadScene(15);
+        SceneManager.LoadScene(14);
     }
 }

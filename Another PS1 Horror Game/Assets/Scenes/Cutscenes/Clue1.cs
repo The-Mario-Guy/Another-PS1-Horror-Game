@@ -19,6 +19,6 @@ public class Clue1 : MonoBehaviour
     IEnumerator Timer()
     {
         yield return new WaitForSeconds(14.5f);
-        SceneManager.LoadScene(10);
+        SceneManager.LoadScene(9);
     }
 }
